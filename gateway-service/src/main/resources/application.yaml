@@ -1,0 +1,3 @@
+jwt:
+  secret: qwertyu1234!@#@!asdcxz
+  lifetime: 360000000
