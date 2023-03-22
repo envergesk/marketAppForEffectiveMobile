@@ -17,6 +17,9 @@ public class Comment {
     @Column(name = "comment_text")
     private String commentText;
 
+    @Column(name = "score")
+    private Integer score;
+
     @ManyToOne
     @JoinColumn(name = "user_id")
     private User user;
